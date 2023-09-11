@@ -734,7 +734,7 @@ def apix(ids,passlist):
                                 gtt=random.choice(xxxxx)
                                 gttt=random.choice(xxxxx)
                                 android_version=str(random.randrange(6,13))
-                                ua_string = f'[FBAN/FB4A;FBAV/254.0.0.29340;FBBV/688229656;FBDM/{density=2.0,width=720,height=1449};FBLC/uk_UA;FBRV/{str(ver_code)};FBCR/{str(sim)};FBMF/Xiomi;FBBD/Redmi;FBPN/{str(fbs)};FBDV/{str(smx)};FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                                ua_string = '[FBAN/FB4A;FBAV/254.0.0.29340;FBBV/688229656;FBDM/{density=2.0,width=720,height=1449};FBLC/uk_UA;FBRV/{str(ver_code)};FBCR/{str(sim)};FBMF/Xiomi;FBBD/Redmi;FBPN/{str(fbs)};FBDV/{str(smx)};FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 data = {"adid": "9e0f3002-43fc-4358-89f1-5622b403d502",
